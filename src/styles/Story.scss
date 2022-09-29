@@ -2,7 +2,11 @@
   &__pictures {
     background-color: var(--color-primary);
     grid-column: full-start / col-end 4;
-    background-image: url(../back.jpg);
+    background-image: linear-gradient(
+        rgba(198, 153, 99, 0.5),
+        rgba(198, 153, 99, 0.5)
+      ),
+      url(../back.jpg);
     background-size: cover;
 
     display: grid;
